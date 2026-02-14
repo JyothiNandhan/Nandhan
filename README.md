@@ -232,27 +232,19 @@ This notebook is ideal for:
 
 ---
 
-# 📚 Conceptual Summary
+📚 Conceptual Summary
 
 This notebook implements:
 
-[
-\text{Image Encoder} \rightarrow \mathbf{z}_i
-]
-[
-\text{Text Encoder} \rightarrow \mathbf{z}_t
-]
+Image Encoder→ 𝑧i
 
-Then optimizes:
+Text Encoder→ 𝑧𝑡 
+	​
 
-[
-\text{Similarity}(\mathbf{z}_i, \mathbf{z}_t)
-]
+Then optimizes: Similarity(𝑧𝑖,𝑧𝑡) 
 
 So that matching pairs are close in embedding space.
-
 ---
-
 # 🧩 Why "NANO-VLM"?
 
 Because this is a **minimal educational version** of large vision-language models like CLIP, built entirely from scratch and small enough to fully understand.
